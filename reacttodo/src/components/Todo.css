@@ -1,34 +1,62 @@
 .main{
     height: 500px;
     width: 400px;
-    background: url("./todobg1.jpg");
-    /* border: 1px solid red; */
-    background-size: contain;
+    background: url("./todobg2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     background-color: rgb(14, 14, 14);
+   
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+   border: 1px solid red;
     
 }
 
 input::placeholder {
     color: rgb(111, 107, 107);
-    /* font-size: 1.5em; */
+    font-size: 1.3em;
     font-style: italic;
    
   }
   input{
-      padding-top: 8px;
-       width:90%;
+    padding-top: 8px;
+    width:90%;
     height: 30px;
     margin-top: 5px;
     padding: 5px;
-    padding-left: 20px;
+    padding-left: 10px;
     border-radius: 3px;
     border: none;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-    font-size: 1.5em;
-  };
 
- button{
-   height: 30px;
- }
+  }
+
+
+.gap{
+  height: 30px;
+  width:80%;
+  margin: auto;
+  margin-bottom: 5px;
+  text-align: left;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  color:aliceblue;
+  /* border:2px solid; */
+  padding: 4px;
+  background-color: rgba(109, 108, 108, 0.439) ;
+  border-radius: 4px;
+}
+.heading{
+  border: 2px;
+  width:fit-content;
+  background: local;
+  /* background-color: rgb(104,124,147); */
+  color: green;
+  opacity: 0.8;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  
+};

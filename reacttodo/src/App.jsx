@@ -7,8 +7,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-     <h1>Make Your Todo Now</h1>
+    <div >
+     <h1 className="app">Make Your Todo Now</h1>
      <Todo/>
     </div>
   )

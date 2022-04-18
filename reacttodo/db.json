@@ -1,19 +1,35 @@
 {
-  "posts": [
+  "todos": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "data",
+      "state": false,
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "gvbv",
+      "state": false,
+      "id": 2
+    },
+    {
+      "title": "ssssssss",
+      "state": false,
+      "id": 3
+    },
+    {
+      "title": "hjhhcxcxhccxycxcchxcc9",
+      "state": false,
+      "id": 4
+    },
+    {
+      "title": "complete this...",
+      "state": false,
+      "id": 5
+    },
+    {
+      "title": "test",
+      "state": false,
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  ]
 }
