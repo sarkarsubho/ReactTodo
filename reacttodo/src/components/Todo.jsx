@@ -19,6 +19,10 @@ export const Todo =()=>{
 
     },[])
 
+    const handlestyle=(id)=>{
+        console.log(id)
+    }
+
     return(<>
         <div className="main">
             <input onChange={(e)=>{
@@ -46,7 +50,7 @@ export const Todo =()=>{
                 <div key={e.id} className="gap"  style={linethrough ? {textDecorationLine: 'line-through'}:{}}>
 
                     <div>{e.id}. { e.title}</div>
-                    <button onClick={()=>setLinethrough(!linethrough)}>Done</button>
+                    <button onClick={()=> handlestyle(e.id)}>Done</button>
                     </div>)
             }
 
