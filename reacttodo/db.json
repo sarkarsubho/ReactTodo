@@ -1,9 +1,16 @@
 {
   "todos": [
     {
-      "title": "data",
+      "title": "test",
       "state": false,
+      "pic": "",
       "id": 1
+    },
+    {
+      "title": "test with img",
+      "state": false,
+      "pic": {},
+      "id": 2
     }
   ]
 }
